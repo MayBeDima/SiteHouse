@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Дом сайтов</title>
+
+  <link rel="icon" type="image/svg" href="resources/favicon.png">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <script defer src="js/app.js"></script>
+  <script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+  <header class="header">
+
+  <div class="header__top">
+    <div class="container header__container header__top-container">
+      <div class="header__top-content">
+        <a class="header__logo" href="../index.html">
+          <svg>
+            <use xlink:href="img/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <p class="header__text">
+          Увеличиваем продажи в Вашем бизнесе!
+        </p>
+        <a href="+74872792910" class="telephone">+7 (4872) 79-29-10</a>
+        <button class="btn header__btn">
+          <svg>
+            <use xlink:href="img/sprite.svg#phone"></use>
+          </svg>
+          Заказать звонок
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item dropdown">
+            <a href="#" class="nav__link dropdown__btn">Увеличение продаж</a>
+            <ul class="dropdown__list">
+              <li class="dropdown__item hit">
+                <a href="" class="dropdown__link">Пункт 1</a> <span class="hit__mark">ХИТ</span>
+              </li>
+              <li class="dropdown__item">
+                <a href="" class="dropdown__link">SEO продвижение сайтов в Яндекс</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="" class="dropdown__link">Проведение бизнеса в социальных сетях</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="" class="dropdown__link">Пункт 4</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Создание сайтов</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Поддержка</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Битрикс 24</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">О компании</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Отзывы</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Кейсы</a>
+          </li>
+          <li class="nav__item">
+            <a href="../contacts.html" class="nav__link" id="contacts">Контакты</a>
+          </li>
+          <li class="search">
+            <a href="#" class="search-btn-to-click search-for-svg">
+              <svg>
+                <use xlink:href="img/sprite.svg#search"></use>
+              </svg>
+            </a>
+            <form action="post" class="search__form">
+              <button type="submit" class="search__btn search-for-svg">
+                <svg>
+                  <use xlink:href="img/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <div class="search__field">
+                <input type="text" placeholder="Поиск по сайту" class="search__input">
+                <div class="field-after"></div>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+  <main>
+
+    <section class="section hero">
+      <div class="swiper" id="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide_first swiper-slide">
+            <div class="container hero__container">
+              <div class="hero__content marketing">
+                <h1 class="hero__heading">Комплексный интернет-маркетинг</h1>
+                <p class="hero__paragraph paragraph">Мы помогаем бизнесу находить клиентов быстрее, интегрируя маркетинговые,
+                  обучающие и
+                  технологические продукты</p>
+                <div class="hero__btn-group">
+                  <button class="btn hero__btn-sale">Заказать увеличение продаж</button>
+                  <button class="btn hero__btn-audit">Заказать экспертный аудит</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide_second swiper-slide">
+            <div class="container hero__container">
+              <div class="hero__content seo">
+                <p class="hero__paragraph hero__paragraph-top paragraph">Комплексные решение для увеличения эффективности маркетинга и роста продаж!
+                </p>
+                <h1 class="hero__heading">SEO-продвижение сайтов</h1>
+                <p class="hero__paragraph hero__paragraph-bottom paragraph">Выведем Ваш сайт в ТОП поисковых систем Яндекс и Google<br>
+                  по ключевым запросам
+                  пользователей. Увеличим целевой трафик, лиды и
+                  <br>продажи за счет повышения эффективности всего маркетинга</p>
+                <div class="hero__btn-group">
+                  <button class="btn hero__btn-sale">Заказать увеличение продаж</button>
+                  <button class="btn hero__btn-audit">Заказать экспертный аудит</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__top">
+      <div class="footer__contacts">
+        <a class="header__logo footer__logo" href="">
+          <svg>
+            <use xlink:href="img/sprite.svg#logowhite"></use>
+          </svg>
+        </a>
+        <div class="region">
+          Ваш регион: <a href="">Тула</a>
+        </div>
+        <div class="contact">
+          <a href="+74872792910" class="telephone">+7 (495) 223-66-59</a>
+          <address class="address">г. Тула, ул. Пушкинская, 27</address>
+        </div>
+        <div class="codes">
+          <span class="inn">
+            ИНН 123456789
+          </span>
+          <span class="ogrn">
+            ОГРН 123456789010
+          </span>
+        </div>
+        <div class="social">
+          <a href="#" class="social__link vk">
+            <svg>
+              <use xlink:href="img/sprite.svg#vk"></use>
+            </svg>
+          </a>
+          <a href="#" class="social__link telegram">
+            <svg>
+              <use xlink:href="img/sprite.svg#telegram"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__services sales">
+        <h2 class="services-title">
+          Увеличение продаж<br>для вашего бизнеса
+        </h2>
+        <ul class="services-list">
+          <li class="services-item">
+            <a href="" class="services-link">SEO</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Тариф &#171;Трафик&#187;</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Тариф &#171;Объем работ&#187;</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Тариф &#171;Лиды / CPA&#187;</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Тариф &#171;SEO + Контекст&#187;</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Комплексное SEO</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Для интернет-магазина</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Продвижение в Яндекс</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Продвижение в Google</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Разовые работы</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">SEO-аудит сайтов</a>
+          </li>
+          <li class="services-item">
+            <a href="" class="services-link">Вывод из-под санкций</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__services">
+        <div class="sites">
+          <h2 class="services-title">
+            Разработка<br>и поддержка сайтов
+          </h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <a href="" class="services-link">Разработка</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">На 1C-Битрикс</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">На WordPress</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">На Tilda</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Сайт визитка</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Интернет-магазин</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Проектирование</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Поддержка сайтов</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Внесение доработок</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__services">
+        <div class="company">
+          <h2 class="services-title">
+            Компания<br>&#171;Дом сайтов&#187;
+          </h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <a href="" class="services-link">Клиенты и отзывы</a>
+            </li>
+            <li class="services-item">
+              <a href="../contacts.html" class="services-link">Контакты</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Работа в Demis Groop</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Личный кабинет</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Статьи</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Публичная оферта</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Партнерская программа</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Гарантии</a>
+            </li>
+            <li class="services-item">
+              <a href="" class="services-link">Внесение доработок</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div>
+        &#169; 2008-2022 Компания &#171;ДОМ САЙТОВ&#187;
+      </div>
+      <div>
+        <a href="">Карта сайта</a> |
+        <a href="">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+</body>
+
+</html>
